@@ -1,0 +1,25 @@
+*.jpeg
+*.jpg
+*.png
+
+# Pliki wygenerowane podczas procesu uczenia maszynowego
+*.pth
+*.pt
+
+# Pliki wynikowe lub dane wygenerowane podczas przetwarzania obrazów
+results/
+output/
+
+# Środowiska wirtualne
+venv/
+env/
+.venv/
+.venv2/
+.venv3/
+
+# Pliki konfiguracyjne i pliki z danymi poufymi
+config.ini
+credentials.json
+client_secrets.json
+
+__pycache__/
